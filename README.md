@@ -6,28 +6,28 @@ A multi-activity Android application built for the **Razvoj mobilnih aplikacij (
 
 ## 📱 Screenshots
 
-| MainActivity | HelloActivity | ThirdActivity |
-| :---: | :---: | :---: |
-| ![MainActivity](screenshots/main_activity.png) | ![HelloActivity](screenshots/hello_activity.png) | ![ThirdActivity](screenshots/third_activity.png) |
+| Main Activity | Hello Activity | Third Activity |
+|:---:|:---:|:---:|
+| ![Main Activity](./screenshots/main_activity.png) | ![Hello Activity](./screenshots/hello_activity.png) | ![Third Activity](./screenshots/third_activity.png) |
 
 ---
 
 ## 🚀 Features
 
-- **Counter State Management**: Increment counter on `MainActivity` and pass the counter value across activities using `Intent.putExtra()` and `getIntExtra()`.
-- **State Retention**: Retains counter state across screen rotations (`onSaveInstanceState`).
+- **Counter State Management**: Increment the counter in `MainActivity` and pass its value between activities using `Intent.putExtra()` and `getIntExtra()`.
+- **State Retention**: Retain counter state across screen rotations using `onSaveInstanceState()`.
 - **Activity Navigation**:
-  - Button-based navigation between `MainActivity`, `HelloActivity`, and `ThirdActivity`.
-  - Flags (`FLAG_ACTIVITY_CLEAR_TOP` | `FLAG_ACTIVITY_SINGLE_TOP`) to handle back-stack navigation cleanly.
+    - Button-based navigation between `MainActivity`, `HelloActivity`, and `ThirdActivity`.
+    - Uses `FLAG_ACTIVITY_CLEAR_TOP` and `FLAG_ACTIVITY_SINGLE_TOP` to handle back-stack navigation cleanly.
 - **Swipe Gesture Navigation (`ThirdActivity`)**:
-  - **Swipe Left**: Navigates to `MainActivity`.
-  - **Swipe Right**: Navigates to `HelloActivity`.
+    - **Swipe Left**: Navigates to `MainActivity`.
+    - **Swipe Right**: Navigates to `HelloActivity`.
 
 ---
 
 ## 🛠️ Architecture & Structure
 
-```
+```text
 app/src/main/java/com/domenkoder/activitiesapp/
 ├── MainActivity.java    # Main screen with counter control and navigation triggers
 ├── HelloActivity.java   # Displays "Hello!" with the passed counter value
@@ -39,11 +39,18 @@ app/src/main/java/com/domenkoder/activitiesapp/
 ## ⚙️ Setup & Build
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/ActivitiesApp.git
    ```
+
 2. Open the project in **Android Studio** (Ladybug / 2024.2+ recommended).
-3. Let Gradle sync and run on an Android emulator or physical device (Min SDK 24 / Android 7.0+).
+
+3. Let Gradle sync and run the application on an Android emulator or physical device.
+
+    - Minimum SDK: 24 (Android 7.0+).
+
+### Build from the command line
 
 ```bash
 ./gradlew assembleDebug
