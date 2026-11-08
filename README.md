@@ -6,9 +6,10 @@ A multi-activity Android application built for the **Razvoj mobilnih aplikacij (
 
 ## 📱 Screenshots
 
-<img src="screenshots/main_activity.png" alt="MainActivity" width="300" />
-<img src="screenshots/hello_activity.png" alt="HelloActivity" width="300" />
-<img src="screenshots/third_activity.png" alt="ThirdActivity" width="300" />
+<p align="center">
+  <img src="screenshots/main_activity.png" alt="MainActivity" width="50%" />
+  <img src="screenshots/hello_activity.png" alt="HelloActivity" width="50%" />
+</p>
 
 ---
 
