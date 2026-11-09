@@ -4,14 +4,11 @@ A multi-activity Android application built for the **Razvoj mobilnih aplikacij (
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
-<p align="center">
-  <img src="screenshots/main_activity.png" alt="MainActivity" width="50%" />
-  <img src="screenshots/hello_activity.png" alt="HelloActivity" width="50%" />
-</p>
-
----
+|                    Main Activity                    |                   Hello Activity                    |
+|:---------------------------------------------------:|:-----------------------------------------------------:|
+| ![Main Activity](screenshots/main_activity.png)     | ![Hello Activity](screenshots/hello_activity.png) |
 
 ## 🚀 Features
 
